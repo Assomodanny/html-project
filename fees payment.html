@@ -1,0 +1,162 @@
+	<!Doctype html>
+	<html>
+		<head>
+			<title>Result</title>
+				<style>
+					*{
+	                   padding:0;
+						margin:0;
+						box-sizing: border-box;
+						font family:Arial;
+					}
+					header{
+	                       background: #4ad;
+							padding:20px;
+							color:white;
+						}
+						nav{
+							margin-top:30px;
+							}
+							a{
+								margin-right:10px;
+								color:black;
+							}
+							section{
+									padding:20px
+									}
+					main{
+						margin-top:30px;
+						padding:20px;
+						}
+						
+						form{
+							margin-top:40px;
+							}
+	
+						div{
+							margin-bottom:20px;
+							
+							}
+	
+						label{
+							display: block;		
+							}
+	
+					input{
+									width:300;
+									height:40px;
+									}
+									
+					select{
+						width:300px;
+						height:40px
+					}
+									
+						footer{
+								background:#4ad;
+								color:white;
+								padding:20px;
+								}
+					th, td{
+							padding:50px;
+							border: 2px solid black;
+						}
+	
+					table{
+							border-collapse:collapse;
+						}	
+							h3{
+								
+								padding:10px;
+								font-family:Arial;
+							}
+							
+						
+					
+				</style>
+		</head>
+		<body>
+			<header>
+			<img src="pop.png" width="80px" height="70px"/>
+     <h3>EDA UNIVERSITY</h3>
+	 <p>MOTTO: KNOWLEDGE . CHARACTER .EXCELLENCE</p>
+	 <nav>
+        <a href="index.html">Create Account</a>
+        <a href="login.html">Login</a>
+        <a href="results.html">Results</a>
+        <a href="#">Fees Payment</a>
+		<a href="account.html">Account creation success page</a>
+		<a href="student's profile.html">Student's profile page</a>
+	 </nav>
+		</header>
+		
+			<table>
+			<h3 style="color:blue">Fees Payment</h3>
+			<marquee style="color:green">Review your payment history and make a new payment</marquee>
+		<tr>
+			<th>Date</th>
+			<th>Reason</th>
+			<th>Amount</th>
+			<th>Payment Status</th>
+		</tr>
+		
+		<tr>
+			<td>2025/2026</td>
+			<td>School fees</td>
+			<td>$500</td>
+			<td style="color:green">Paid</td>
+				
+		</tr>
+			
+					<tr>
+			<td>15 of jan 2026</td>
+			<td>Hostel fees</td>
+			<td>$300</td>
+			<td style="color:green">Paid</td>
+				
+		</tr>	
+			<tr>	
+			<td>21 of feb 2026</td>
+				<td>Technology fee</td>
+				<td>$500</td>
+				<td style="color:green">Paid</td>
+				
+		</tr>
+			</table>
+			
+			<main>
+				<form>
+				<h3 style="color:blue">Make a New Payment</h3>
+				<div>
+					<label>Payment Reason</label>
+					<select id="reason" name="reason" required>
+					<option value="disabled selected">Select a reason</option>					
+					<option value="school fee">School fee</option>
+					<option value="Hostel fee">Hostel fee</option>
+					<option value="Technology fee">Technology fee</option>
+				
+		</select>	
+				</div>
+				<div>
+					<label>Amount $</label>
+					<input type="number"/>
+				</div>
+				
+				<div>
+					<label>Card Number</label>
+					<input type="number" value="0000000000"/>
+				</div>
+				
+				<div>
+					<input style="color:blue"  type="submit" value="Make Payment"/>
+				</div>
+			
+			</main>
+			<footer>
+						<img src="pop.png" width="80px" height="70px"/>
+	 <h1>EDA University</h1>
+	 <p>&copy;2026 EDA University. All rights reserved.</p>
+		<marquee style=" color:gold">Welcome to EDA University  Knowledge. Character. Excellence.</marquee>
+	 </footer>
+		</body>	
+	</html>
